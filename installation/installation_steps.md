@@ -2,7 +2,6 @@
 
 ## 1. Wazuh Manager (Ubuntu)
 
-# Установка Wazuh_Manager (Ubuntu)
 1. Получение Wazuh GPG-Key с помощью консольной команды
 
 curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | sudo gpg --dearmor -o /usr/share/keyrings/wazuh-archive-keyring.gpg
@@ -24,19 +23,21 @@ curl -sO https://packages.wazuh.com/4.13/wazuh-install.sh && sudo bash ./wazuh-i
 
 <img width="1719" height="877" alt="image" src="https://github.com/user-attachments/assets/25320a8e-28f8-4377-8558-fc02d5665d7a" />
 
-Всё работает!
-1. Установил Wazuh Manager по официальной инструкции
-3. Настроил репозитории и установил сервисы
-4. Проверил статус:systemctl status wazuh-manager
-5. Настроил доступ к веб-интерфейсу
-
 ## 2. Windows Agent
 
-1. Установил Wazuh Agent на Windows 10
-2. Прописал адрес Wazuh Manager
-3. Проверил подключение агента:
-   - агент отображается в Dashboard
-   - heartbeat поступает корректно
+На этом этапе всё просто: установка через графический интерфейс
+<img width="1030" height="774" alt="image" src="https://github.com/user-attachments/assets/e9a37f16-0d33-4934-af89-ef75b3a5f89d" />
+Всё работает!
+
+# Регистрация Агента у Менеджера
+Для этого нужно сгенерировать ключ агента с помощью команды sudo /var/ossec/bin/manage_agents
+<img width="1716" height="930" alt="image" src="https://github.com/user-attachments/assets/a7488c4b-e7e5-4641-a302-ff70015477ed" />
+Осталось скопировать ключ и вставить в интерфейс агента на Windows машине
+<img width="1023" height="772" alt="image" src="https://github.com/user-attachments/assets/7e8273ec-82e1-47a1-8d15-4fe7a1003e5d" />
+После добавления ip-адреса Менеджера видно, что система работает
+<img width="1028" height="773" alt="image" src="https://github.com/user-attachments/assets/f459a329-44b7-46bc-8a31-1e6807e580f4" />
+<img width="1719" height="950" alt="image" src="https://github.com/user-attachments/assets/da71facc-fbbc-40be-b1b3-ae243a896e32" />
+
 
 ## 3. File Integrity Monitoring (FIM)
 
