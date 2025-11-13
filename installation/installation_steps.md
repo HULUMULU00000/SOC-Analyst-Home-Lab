@@ -29,7 +29,7 @@ curl -sO https://packages.wazuh.com/4.13/wazuh-install.sh && sudo bash ./wazuh-i
 <img width="1030" height="774" alt="image" src="https://github.com/user-attachments/assets/e9a37f16-0d33-4934-af89-ef75b3a5f89d" />
 Всё работает!
 
-# Регистрация Агента у Менеджера
+1. Регистрация Агента у Менеджера
 Для этого нужно сгенерировать ключ агента с помощью команды sudo /var/ossec/bin/manage_agents
 <img width="1716" height="930" alt="image" src="https://github.com/user-attachments/assets/a7488c4b-e7e5-4641-a302-ff70015477ed" />
 Осталось скопировать ключ и вставить в интерфейс агента на Windows машине
