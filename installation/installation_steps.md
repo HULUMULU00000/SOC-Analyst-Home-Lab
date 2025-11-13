@@ -26,16 +26,25 @@ curl -sO https://packages.wazuh.com/4.13/wazuh-install.sh && sudo bash ./wazuh-i
 ## 2. Windows Agent
 
 На этом этапе всё просто: установка через графический интерфейс
+
 <img width="1030" height="774" alt="image" src="https://github.com/user-attachments/assets/e9a37f16-0d33-4934-af89-ef75b3a5f89d" />
+
 Всё работает!
 
 1. Регистрация Агента у Менеджера
+
 Для этого нужно сгенерировать ключ агента с помощью команды sudo /var/ossec/bin/manage_agents
+
 <img width="1716" height="930" alt="image" src="https://github.com/user-attachments/assets/a7488c4b-e7e5-4641-a302-ff70015477ed" />
+
 Осталось скопировать ключ и вставить в интерфейс агента на Windows машине
+
 <img width="1023" height="772" alt="image" src="https://github.com/user-attachments/assets/7e8273ec-82e1-47a1-8d15-4fe7a1003e5d" />
+
 После добавления ip-адреса Менеджера видно, что система работает
+
 <img width="1028" height="773" alt="image" src="https://github.com/user-attachments/assets/f459a329-44b7-46bc-8a31-1e6807e580f4" />
+
 <img width="1719" height="950" alt="image" src="https://github.com/user-attachments/assets/da71facc-fbbc-40be-b1b3-ae243a896e32" />
 
 
