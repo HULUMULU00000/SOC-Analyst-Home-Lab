@@ -2,10 +2,11 @@
 
 ## 1. Wazuh Manager (Ubuntu)
 
-1. Получение Wazuh GPG-Key с помощью консольной команды
+### Получение Wazuh GPG-Key с помощью консольной команды
 
 curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | sudo gpg --dearmor -o /usr/share/keyrings/wazuh-archive-keyring.gpg
-2. Загрузка и запуск установочного скрипта Wazuh
+
+### Загрузка и запуск установочного скрипта Wazuh
 
 curl -sO https://packages.wazuh.com/4.13/wazuh-install.sh && sudo bash ./wazuh-install.sh -a -i
 
@@ -15,7 +16,7 @@ curl -sO https://packages.wazuh.com/4.13/wazuh-install.sh && sudo bash ./wazuh-i
 
 <img width="1287" height="799" alt="image" src="https://github.com/user-attachments/assets/29df01e5-355f-4807-bd4d-4eda8eef7043" />
 
-3. Доступ к панели управления Wazuh
+### Доступ к панели управления Wazuh
 
 Система работает в веб-интерфейсе, поэтому надо зайти, указывая ip-адрес виртуальной машины
 
@@ -25,13 +26,13 @@ curl -sO https://packages.wazuh.com/4.13/wazuh-install.sh && sudo bash ./wazuh-i
 
 ## 2. Windows Agent
 
-На этом этапе всё просто: установка через графический интерфейс
+### На этом этапе всё просто: установка через графический интерфейс
 
 <img width="1030" height="774" alt="image" src="https://github.com/user-attachments/assets/e9a37f16-0d33-4934-af89-ef75b3a5f89d" />
 
 Всё работает!
 
-1. Регистрация Агента у Менеджера
+### Регистрация Агента у Менеджера
 
 Для этого нужно сгенерировать ключ агента с помощью команды sudo /var/ossec/bin/manage_agents
 
