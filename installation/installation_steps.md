@@ -3,10 +3,12 @@
 ## 1. Wazuh Manager (Ubuntu)
 
 1. Установил Wazuh Manager по официальной инструкции
-2. Настроил репозитории и установил сервисы
-3. Проверил статус:
+<img width="1022" height="771" alt="image" src="https://github.com/user-attachments/assets/53725884-7eb9-44af-bb59-f848d446fe7f" />
+<img width="1287" height="800" alt="image" src="https://github.com/user-attachments/assets/d1b33e2d-dedd-4700-9c44-c4f3bff6a13a" />
+3. Настроил репозитории и установил сервисы
+4. Проверил статус:
    systemctl status wazuh-manager
-4. Настроил доступ к веб-интерфейсу
+5. Настроил доступ к веб-интерфейсу
 
 ## 2. Windows Agent
 
