@@ -31,7 +31,7 @@
 Подробная установка Wazuh Manager, Windows Agent и регистрация агента:  
 [installation_steps.md](installation/installation_steps.md)
 
-### Use Case: File Integrity Monitoring (FIM)  
+### Пример использования: File Integrity Monitoring (FIM)   
 Создание и удаление файлов, настройка FIM и события в Dashboard:  
 [use_case_fim.md](use-case-fim/use_case_fim.md)
 
