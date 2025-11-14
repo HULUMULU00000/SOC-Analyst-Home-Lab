@@ -15,11 +15,8 @@
 
 # Структура репозитория
 
-/wazuh-base-setup → Базовая установка Wazuh Manager + Windows Agent
-/extended-fim → Расширенный File Integrity Monitoring
-/sysmon-lab → (в разработке) Мониторинг процессов через Sysmon
-/malware-c-lab → (в разработке) Мини-малварь на C + детекция
-
+- /wazuh-base-setup → Базовая установка Wazuh Manager + Windows Agent
+- /extended-fim → Расширенный File Integrity Monitoring
 
 ---
 
