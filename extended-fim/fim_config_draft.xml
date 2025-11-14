@@ -1,1 +1,13 @@
+<syscheck>
+  <directories check_all="yes" realtime="yes">C:\Users\*\AppData\Local</directories>
+  <directories check_all="yes" realtime="yes">C:\ProgramData</directories>
+  <directories check_all="yes" realtime="yes">C:\Users\*\AppData\Local\Temp</directories>
+
+  <include>*.exe</include>
+  <include>*.dll</include>
+  <include>*.ps1</include>
+  <include>*.bat</include>
+
+  <ignore>*.log</ignore>
+</syscheck>
 
